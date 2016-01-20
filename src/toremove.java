@@ -46,7 +46,7 @@ public class toremove extends HttpServlet {
 		}
 		
 		String act = request.getParameter("whattodo").toString();
-		if (act.equals("Go Back")) response.sendRedirect("intro.jsp");
+		if (act.equals("Go Back")) response.sendRedirect("intro2.jsp");
 		else{
 		
 		String rem=request.getParameter("film_name").toString();

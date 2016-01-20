@@ -38,7 +38,7 @@ public class introd extends HttpServlet {
 		
 		String ans;
 		
-		ans = request.getParameter("gender").toString();
+		ans = request.getParameter("job").toString();
 		
 		if (ans.equals("Add to Database")) response.sendRedirect("index.jsp");
 		else response.sendRedirect("remove.jsp");

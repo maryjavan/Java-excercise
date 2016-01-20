@@ -50,7 +50,7 @@ public class reg extends HttpServlet {
 			e1.printStackTrace();
 		}
 		String act = request.getParameter("whattodo").toString();
-		if (act.equals("Go Back")) response.sendRedirect("intro.jsp");
+		if (act.equals("Go Back")) response.sendRedirect("intro2.jsp");
 		else{
 		
 		filmName= request.getParameter("film_name").toString();
